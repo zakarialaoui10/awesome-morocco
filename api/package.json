@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "write-data":"node data-writer.js"
+    "write-data":"node src/data-writer.js"
   },
   "author": "zakaria elalaoui",
   "license": "MIT",
