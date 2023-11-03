@@ -1,8 +1,9 @@
+Execute the following command in your terminal to navigate to the 'api' directory : 
 ```bash
   cd api 
 ```
 
-# Data from Markdown to Json
+# Converting Data from Markdown to JSON
 run : 
 ```
  npm run write-data
