@@ -41,8 +41,15 @@ const get_open_source=(document)=>{
       )]))
 }
 
-export{
-    extractData,
-    get_Blogs,
-    get_open_source
+const get_data=(document)=>{
+  return{
+    Communities : extractData(document , 1),
+    Events : extractData(document , 2),
+    Podcasts : extractData(document , 4),
+    Youtube : extractData(document , 5),
+    Books : extractData(document , 6),
+    Blogs : get_Blogs(document),
+    Open_Source : get_open_source(document)
+  }
 }
+export default get_data
