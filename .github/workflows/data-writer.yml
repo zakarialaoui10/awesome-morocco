@@ -1,0 +1,8 @@
+name: readme to json
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
