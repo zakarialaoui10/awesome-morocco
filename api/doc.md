@@ -1,4 +1,4 @@
-Execute the following command in your terminal to navigate to the 'api' directory : 
+Execute the following command in your terminal to navigate to the api directory : 
 ```bash
   cd api 
 ```
