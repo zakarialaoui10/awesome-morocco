@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zakaria elalaoui",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "marked": "^9.1.5"
+  }
+}
